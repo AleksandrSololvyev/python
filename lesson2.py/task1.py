@@ -1,4 +1,6 @@
-number = float(input('Введите вещественное число = '))
-n = [float(number)]
-for i in n:
-    print(i,' f ')
+number = input('Введите вещественное число = ')
+summ = 0
+for i in number:
+    if i.isdigit():
+        summ = summ +int(i)
+print(f'Сумма цифр числа = {summ}')        
